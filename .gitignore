@@ -1,0 +1,45 @@
+# Compiled Python files
+*.pyc
+
+# Byte-compiled files
+__pycache__/
+*.pyo
+*.egg-info/
+
+# Cache files
+*.egg
+
+# Virtualenv directories
+.env/
+
+# VSCode files
+.vscode/
+
+# Jupyter Notebook metadata
+.ipynb_checkpoints/
+
+# Local settings
+*.local/
+
+# Credentials
+.aws/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+.ropeproject/
+
+# Generated files
+dist/
+build/
+.eggs/
+
+# Package distribution files
+*.tar.gz
+*.whl
+*.egg
+*.egg-info/

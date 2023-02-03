@@ -1,12 +1,12 @@
 from typing import Dict
 import unittest
-import sys
 import unittest.mock
+import sys
 sys.path.append("..")
 from src.data_adapter import get_key_mappings, transform_data
 
 
-class TestAdd(unittest.TestCase):
+class TestDataTransformer(unittest.TestCase):
 
     def test_it_should_be_able_to_get_key_mappings_from_env_vars(self):
         # Given
